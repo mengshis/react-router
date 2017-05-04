@@ -1,0 +1,29 @@
+{
+  "name": "react-router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jspm": "^0.16.53"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "jspm": {
+    "dependencies": {
+      "css": "github:systemjs/plugin-css@^0.1.33",
+      "react": "npm:react@^15.5.4",
+      "react-dom": "npm:react-dom@^15.5.4",
+      "react-router": "npm:react-router@1.0.0",
+      "semantic-ui": "github:Semantic-Org/Semantic-UI@^2.2.10"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
